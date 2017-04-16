@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:keyboard_parts
+LIBS:myboard-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -43,17 +44,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_02X12 J_PRO_MICRO1
-U 1 1 58EF57A6
-P 4050 1950
-F 0 "J_PRO_MICRO1" H 4050 2600 50  0000 C CNN
-F 1 "CONN_02X12" V 4050 1950 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x12_Pitch1.27mm" H 4050 750 50  0001 C CNN
-F 3 "" H 4050 750 50  0001 C CNN
-	1    4050 1950
-	1    0    0    -1  
-$EndComp
 $Comp
 L KEYSW K0
 U 1 1 58EF59AE
@@ -803,24 +793,35 @@ Text Label 5600 5450 1    60   ~ 0
 row4
 Text Label 5600 6150 1    60   ~ 0
 row5
-Text Label 4300 1800 0    60   ~ 0
-col0
-Text Label 4300 1900 0    60   ~ 0
+Text Label 3250 1900 0    60   ~ 0
 col1
-Text Label 4300 2000 0    60   ~ 0
+Text Label 3250 2000 0    60   ~ 0
 col2
-Text Label 4300 2100 0    60   ~ 0
+Text Label 3250 2100 0    60   ~ 0
 col3
-Text Label 4300 2200 0    60   ~ 0
+Text Label 3250 2200 0    60   ~ 0
 row0
-Text Label 4300 2300 0    60   ~ 0
+Text Label 3250 2300 0    60   ~ 0
 row1
-Text Label 4300 2400 0    60   ~ 0
+Text Label 3250 2400 0    60   ~ 0
 row2
-Text Label 4300 2500 0    60   ~ 0
+Text Label 3250 2500 0    60   ~ 0
 row3
-Text Label 3800 1800 2    60   ~ 0
+Text Label 2050 1800 2    60   ~ 0
 row4
-Text Label 3800 1900 2    60   ~ 0
+Text Label 2050 1900 2    60   ~ 0
 row5
+$Comp
+L SUPP24 J1
+U 1 1 58F37EFF
+P 2650 1950
+F 0 "J1" H 2650 2050 50  0000 C CNN
+F 1 "SUPP24" H 2650 1850 50  0000 C CNN
+F 2 "keebs:Pro_Micro" H 2650 1950 50  0001 C CNN
+F 3 "" H 2650 1950 50  0001 C CNN
+	1    2650 1950
+	1    0    0    -1  
+$EndComp
+Text Label 3250 1800 0    60   ~ 0
+col0
 $EndSCHEMATC

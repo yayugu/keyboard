@@ -1,4 +1,4 @@
-update=2017年04月13日木曜日 19:57:26
+update=2017年04月16日日曜日 22:46:40
 version=1
 last_client=kicad
 [pcbnew]
@@ -58,4 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-LibName30=keyboard_parts
+LibName30=/Users/yayugu/works/kicad_lib_tmk/keyboard_parts
